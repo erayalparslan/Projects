@@ -30,7 +30,7 @@ void primefactors(int n) {
     int factors[n];
     int counter=0;
     
-    for (int i=2; i<n; i++) {
+    for (int i=2; i<    n; i++) {
         if (n %i == 0) {
             factors[counter] = i;
             counter++;
